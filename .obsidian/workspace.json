@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Process"
             }
+          },
+          {
+            "id": "d2ce4a9edcf5dfed",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,7 +211,7 @@
       "system3-relay:Relay": false
     }
   },
-  "active": "7ea34ae32d75d706",
+  "active": "d2ce4a9edcf5dfed",
   "lastOpenFiles": [
     "Assets/state-transitions.png",
     "Books/three_easy_pieces/Process.md",
