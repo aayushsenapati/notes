@@ -8,7 +8,7 @@
 ### 2. The Crux: How to provide the illusion of many CPUs?
 
 - **Time Sharing:** Running one process, stopping it, and running another.
-    
+
 - **Mechanism vs. Policy:**
     
     - **Mechanism (HOW):** Low-level protocols.
@@ -99,4 +99,9 @@ The OS tracks processes using specific structures:
     
     - Includes: Process ID (PID), State (Running/Ready/etc.), Parent process, Context (Saved Registers), Open files.
         
-- **The zombie state** is a **temporary, necessary state** for a terminated child process. It exists so the parent can collect the child's exit status. If the parent fails to collect this status using wait(), the zombie can persist and potentially cause problems. Proper process management, especially by the init process for orphaned children, is key to preventing these issues.
+- **The zombie state** is a **temporary, necessary state** for a terminated child process. 
+-  **Zombie process:** A process that has **finished execution but still remains in the process table because its parent has not yet called `wait()` to collect its exit status**. 
+- 
+- **Orphan process:** A process whose **parent has terminated before the child finishes execution**, leaving the child without its original parent. 
+    
+- **init (Unix process):** The **special system process (PID 1) that adopts orphan processes and calls `wait()` to clean up any zombie children**. 

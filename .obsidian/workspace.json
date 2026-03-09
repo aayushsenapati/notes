@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Process"
             }
-          },
-          {
-            "id": "d2ce4a9edcf5dfed",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,8 +171,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -211,14 +198,14 @@
       "system3-relay:Relay": false
     }
   },
-  "active": "d2ce4a9edcf5dfed",
+  "active": "7ea34ae32d75d706",
   "lastOpenFiles": [
-    "Assets/state-transitions.png",
-    "Books/three_easy_pieces/Process.md",
-    "Assets",
-    "Books/three_easy_pieces/Operating Systems Introduction.md",
     "Books/three_easy_pieces/Index.md",
+    "Books/three_easy_pieces/Process.md",
+    "Books/three_easy_pieces/Operating Systems Introduction.md",
     "Index.md",
+    "Assets/state-transitions.png",
+    "Assets",
     "Books/three_easy_pieces",
     "Books"
   ]
